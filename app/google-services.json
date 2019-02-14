@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "731053617653",
+    "firebase_url": "https://nevergiveupapplication.firebaseio.com",
+    "project_id": "nevergiveupapplication",
+    "storage_bucket": "nevergiveupapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731053617653:android:7bb36916b5c9b7e4",
+        "android_client_info": {
+          "package_name": "com.example.owner.nevergiveupapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731053617653-9aoi0sbealvi0e11cusa8gkjhon3b8hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.owner.nevergiveupapplication",
+            "certificate_hash": "8d4e87598d212bdb282d05faa7766dc9c486dbdf"
+          }
+        },
+        {
+          "client_id": "731053617653-dvuto9q62eve6f7n1son8ki8lm1eecul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3N5ub6H5iwSC6mr2IDApWYsQx-s6fjEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731053617653-dvuto9q62eve6f7n1son8ki8lm1eecul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
