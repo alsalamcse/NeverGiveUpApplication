@@ -6,32 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".signInActivity">
 
-    <EditText
-        android:id="@+id/etNickName"
-        android:layout_width="wrap_content"
-        android:layout_height="58dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Nick Name"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="99dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="password"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="232dp" />
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name:" />
 
-    <Button
-        android:id="@+id/btnsave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="420dp" />
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:text="Age:" />
 
+        <EditText
+            android:id="@+id/etNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:text="Nick Name:" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="E-mail:" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            tools:text="Phone Number:" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Log In" />
+    </LinearLayout>
 </LinearLayout>
