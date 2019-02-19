@@ -25,7 +25,7 @@ public class firstActivity extends AppCompatActivity {
 
             try {
                 sleep(3000);
-                Intent i=new Intent(getApplicationContext(),null);
+                Intent i=new Intent(getApplicationContext(),SignUpActivity.class);
                 startActivity(i);
             } catch (InterruptedException e) {
                 e.printStackTrace();
