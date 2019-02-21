@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etNickName"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nick Name"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="372dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="379dp"
+        android:layout_height="42dp"
+        android:text="Sign in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/btnCreateGroup"
+        android:layout_width="373dp"
+        android:layout_height="41dp"
+        android:text="Create group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="372dp"
+        android:layout_height="42dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="156dp"
+        tools:text="Sign Up" />
+
+</android.support.constraint.ConstraintLayout>

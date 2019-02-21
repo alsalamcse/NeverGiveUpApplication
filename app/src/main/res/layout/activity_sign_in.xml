@@ -16,42 +16,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name:" />
+            android:hint="Name"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etAge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Age:"
             android:inputType="textPersonName"
-            android:text="Name"
-            tools:text="Age:" />
+            android:text="Name" />
 
         <EditText
             android:id="@+id/etNickname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Nick Name:"
             android:inputType="textPersonName"
-            android:text="Name"
-            tools:text="Nick Name:" />
+            android:text="Name" />
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="E-mail:" />
+            android:hint="E-mail:"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/etPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="phone"
-            tools:text="Phone Number:" />
+            android:hint="Phone Number:"
+            android:inputType="phone" />
 
         <EditText
             android:id="@+id/etPassword"
