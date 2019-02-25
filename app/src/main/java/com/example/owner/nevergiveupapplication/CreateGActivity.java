@@ -30,4 +30,11 @@ public class CreateGActivity extends AppCompatActivity {
             }
         });
     }
+    private void dataHandler()
+    {
+        String GroupName=etGroupName.toString();
+        String ParticipantNumber=etParticipantNum.toString();
+        String ParticipantAge=etParticipantAge.toString();
+        String AdminName=etAdminName.toString();
+    }
 }
