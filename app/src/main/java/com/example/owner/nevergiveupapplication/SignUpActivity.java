@@ -16,17 +16,18 @@ public class SignUpActivity extends AppCompatActivity {
     FirebaseUser user;//user
 
     private EditText etNickName, etPassword;
-    private Button btnSignIn,btnSignUp;
+    private Button btnSignIn,btnSignUp, btnCreateGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.activity_signup3);
 
         etNickName=(EditText)findViewById(R.id.etNickName);
         etPassword=(EditText)findViewById(R.id.etPassword);
         btnSignIn=(Button)findViewById(R.id.btnSignUp);
         btnSignUp=(Button)findViewById(R.id.btnSignUp);
+        btnCreateGroup=(Button)findViewById(R.id.btnCreateGroup);
         auth=FirebaseAuth.getInstance();
         user=auth.getCurrentUser();
 
@@ -43,6 +44,14 @@ public class SignUpActivity extends AppCompatActivity {
             public void onClick(View v) {
                 dataHandler();
 
+            }
+        });
+
+        btnCreateGroup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i =new Intent(getApplicationContext(), CreateGActivity.class);
+                startActivity(i);
             }
         });
     }

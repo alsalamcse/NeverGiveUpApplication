@@ -25,8 +25,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Age:"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etNickname"
@@ -34,8 +33,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Nick Name:"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etEmail"
