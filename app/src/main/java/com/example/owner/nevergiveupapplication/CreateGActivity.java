@@ -25,8 +25,10 @@ public class CreateGActivity extends AppCompatActivity {
 
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-
+            public void onClick(View v)
+            {
+                Intent i = new Intent(getApplicationContext(),null);
+                startActivity(i);
             }
         });
     }
