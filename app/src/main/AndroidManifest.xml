@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".signInActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".CreateGActivity"></activity>
+        <activity android:name=".CreateGActivity" />
+        <activity android:name=".GroupActivity" />
+        <activity android:name=".TaskAdapterActivity"></activity>
     </application>
 
 </manifest>
