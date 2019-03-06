@@ -1,5 +1,6 @@
 package com.example.owner.nevergiveupapplication;
 
+import android.app.Instrumentation;
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
@@ -16,6 +17,8 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
+    private static final Instrumentation InstrumentationRegistry = ;
+
     @Test
     public void useAppContext() {
         // Context of the app under test.

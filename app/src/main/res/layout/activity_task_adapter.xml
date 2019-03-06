@@ -6,44 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".TaskAdapterActivity">
 
-    <TextView
-        android:id="@+id/tvitmText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
-        android:text="TextView"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="31dp" />
-
-    <TextView
-        android:id="@+id/tvitmTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="55dp" />
-
-    <SeekBar
-        android:id="@+id/skbitmNess"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="231dp" />
-
-    <SeekBar
-        android:id="@+id/skbitmImp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ListView
+        android:layout_width="385dp"
+        android:layout_height="442dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468"
-        tools:layout_editor_absoluteX="218dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageButton
-        android:id="@+id/ibtnitmDelTask"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_delete"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="277dp" />
+    <SearchView
+        android:layout_width="388dp"
+        android:layout_height="51dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>

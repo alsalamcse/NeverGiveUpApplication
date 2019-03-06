@@ -10,7 +10,9 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class TaaskAdapter extends ArrayAdapter<MyTask>
+import com.example.owner.nevergiveupapplication.data.MyGroup;
+
+public class TaaskAdapter extends ArrayAdapter<MyGroup>
 {
     public TaaskAdapter(Context context, int resource) {
         super(context, resource);
@@ -21,7 +23,7 @@ public class TaaskAdapter extends ArrayAdapter<MyTask>
         if (convertView==null)// to build one item using xml layout
             convertView=LayoutInflater.from(getContext()).inflate(R.layout.task_item,parent,false);
         //to get current data object
-        MyTask m=getItem(position);//return data object number"position"
+       MyGroup m=getItem(position);//return data object number"position"
 
 //get references for each item at the xml ui
         TextView tvTitle=convertView.findViewById(R.id.tvitmTitle);
@@ -32,10 +34,7 @@ public class TaaskAdapter extends ArrayAdapter<MyTask>
 
 
         //put the data of the object on the view
-        tvText.setText(m.getText());
-        tvTitle.setText(m.getTitle());
-        skbImp.setProgress(m.getImportant);
-        skbNess.setProgress(m.getNecessary);
+        tvText.setText(m.getName());
 
         ibDel.setOnClickListener(new View.OnClickListener() {
             @Override
