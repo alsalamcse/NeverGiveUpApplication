@@ -20,6 +20,7 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".CreateGActivity" />
         <activity android:name=".TaskAdapterActivity" />
+        <activity android:name=".GroupActivity"></activity>
     </application>
 
 </manifest>

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -26,17 +27,16 @@ public class TaaskAdapter extends ArrayAdapter<MyGroup>
        MyGroup m=getItem(position);//return data object number"position"
 
 //get references for each item at the xml ui
-        TextView tvTitle=convertView.findViewById(R.id.tvitmTitle);
-        TextView tvText=convertView.findViewById(R.id.tvitmText);
-        SeekBar skbNess=convertView.findViewById(R.id.skbitmNess);
-        SeekBar skbImp=convertView.findViewById(R.id.skbitmImp);
-        ImageButton ibDel=convertView.findViewById(R.id.ibtnitmDelTask);
+        TextView etGroup1=convertView.findViewById(R.id.etGroup1);
+
+
+        Button btnJoin=convertView.findViewById(R.id.btnJoin);
 
 
         //put the data of the object on the view
-        tvText.setText(m.getName());
+        etGroup1.setText(m.getName());
 
-        ibDel.setOnClickListener(new View.OnClickListener() {
+        btnJoin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getContext(),"Del", Toast.LENGTH_SHORT).show();
